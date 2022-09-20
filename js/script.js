@@ -1,6 +1,6 @@
 'use strict';
 
-function titleClickHandler(event){
+function titleClickHandler(event) {
   event.preventDefault();
   const clickedElement = this;
 
