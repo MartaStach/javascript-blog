@@ -6,16 +6,16 @@
         <title>Blog</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body onload="generateTitleLinks()">
         <div class="blog">
             <div class="container">
               <h1 class="logo">my blog</h1>
               <main class="wrapper">
                 <aside class="sidebar">
-                  <h2 class="section-title">All posts</h2>
-                  <ul class="list titles">
+                  <h2 class="section-title" id="one">All posts</h2>
+                  <ul class="list titles" id="beforeend">
                     <li><a href="#article-1" class="active"><span>Article 1</span></a></li>
-                    <li><a href="#article-2" class="active"><span>Article 2</span></a></li>
+                    <li><a href="#article-2"><span>Article 2</span></a></li>
                     <li><a href="#article-3"><span>Article 3</span></a></li>
                     <li><a href="#article-4"><span>Article 4</span></a></li>
                     <li><a href="#article-5"><span>Article 5</span></a></li>
@@ -45,7 +45,7 @@
                       </ul>
                     </div>
                   </article>        
-                  <article class="post active" id="article-2">
+                  <article class="post" id="article-2">
                     <h3 class="post-title">Article 2</h3>
                     <p class="post-author">by Theo Tabby</p>
                     <div class="post-content">
