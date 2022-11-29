@@ -12,6 +12,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
+  background-color: #217074;
 }
 
 .container {
@@ -51,6 +52,7 @@ body {
   padding: 40px;
   border: 1px solid #444;
   border-radius: 5px;
+  background-color: #E7EAEF;
 }
 
 /* Logo */
@@ -60,6 +62,7 @@ body {
   font-size: 104px;
   line-height: 1;
   text-align: center;
+  color: #E7EAEF;
 }
 
 /* Lists */
@@ -99,3 +102,12 @@ body {
 .post-tags p {
   margin: 0 10px 0 0;
 }/*# sourceMappingURL=style.css.map */
+
+a {
+  text-decoration: none;
+  color: #37745B;
+}
+
+a:hover {
+  color: #8B9D77;
+}
