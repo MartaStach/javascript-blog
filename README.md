@@ -1,0 +1,1 @@
+This is a blog written as a Single Page Application, for the Kodilla Front-end Developer course. Created with html, scss, css and javascript.
